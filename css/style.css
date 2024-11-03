@@ -56,7 +56,7 @@ button {
 }
 
 .header a {
-  font-size: 20px;
+  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
   color: #000;
   font-weight: 600;
 }
@@ -81,6 +81,8 @@ button {
 }
 
 .main-content {
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -88,16 +90,19 @@ button {
 }
 
 .main-content h1 {
-  font-size: 48px;
+  font-size: clamp(1.875rem, 1.5rem + 1.88vw, 3rem);
 }
 
 .main-content p {
-  width: 500px;
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
 }
 .main-content button {
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
   background: #ff6464;
-  width: 200px;
-  height: 40px;
+  padding: 10px 20px;
+}
+
+.main img {
+  width: 100%;
+  max-width: 200px;
 }

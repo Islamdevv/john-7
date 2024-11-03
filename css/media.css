@@ -1,4 +1,4 @@
-@media (max-width: 973px) {
+/* @media (max-width: 973px) {
   .main-content h1 {
     font-size: 45px;
   }
@@ -128,5 +128,39 @@
     font-size: 12px;
     width: 130px;
     height: 30px;
+  }
+} */
+
+@media (max-width: 959px) {
+  #main {
+    padding-block: 20px;
+  }
+  .container {
+    padding-inline: 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .burger-menu {
+    display: flex;
+  }
+  .header {
+    display: none;
+  }
+}
+
+@media (max-width: 709px) {
+  .main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content {
+    align-items: center;
+  }
+  #header .container {
+    padding-inline: 20px;
+  }
+  .container {
+    padding-inline: 20px;
   }
 }
