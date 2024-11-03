@@ -1,0 +1,132 @@
+@media (max-width: 973px) {
+  .main-content h1 {
+    font-size: 45px;
+  }
+  .main-content p {
+    font-size: 15px;
+    width: 460px;
+  }
+  .main-content button {
+    font-size: 15px;
+  }
+  .main img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 886px) {
+  .main-content h1 {
+    font-size: 40px;
+  }
+  .main-content p {
+    font-size: 14px;
+    width: 430px;
+  }
+  .main-content button {
+    font-size: 14px;
+  }
+  .main img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 845px) {
+  .main-content h1 {
+    font-size: 35px;
+  }
+  .main-content p {
+    font-size: 13px;
+    width: 400px;
+  }
+  .main-content button {
+    font-size: 13px;
+  }
+  .main img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 780px) {
+  .burger-menu {
+    display: flex;
+  }
+  .header {
+    display: none;
+  }
+
+  .container {
+    padding-inline: 50px;
+  }
+  .main-content button {
+    width: 180px;
+  }
+}
+
+@media (max-width: 680px) {
+  #main {
+    padding-block: 30px;
+  }
+  .container {
+    padding-inline: 40px;
+  }
+  .main-content button {
+    width: 160px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 664px) {
+  .main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content {
+    align-items: center;
+  }
+  .main img {
+    width: 200px;
+  }
+  .main-content button {
+    width: 140px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 483px) {
+  .main-content h1 {
+    font-size: 30px;
+  }
+  .main-content p {
+    font-size: 12px;
+    width: 350px;
+  }
+  .main-content button {
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 483px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .main-content h1 {
+    font-size: 24px;
+  }
+  .main-content p {
+    font-size: 11px;
+    width: 250px;
+  }
+  .main-content button {
+    font-size: 11px;
+  }
+  .main img {
+    width: 150px;
+  }
+  .main-content button {
+    font-size: 12px;
+    width: 130px;
+    height: 30px;
+  }
+}

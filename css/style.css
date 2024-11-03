@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Heebo, sans-serif;
+}
+
+/* .box {
+  width: 1280px;
+  background: red;
+  height: 400px;
+} */
+
+/* .box {
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: 250px;
+  height: 250px;
+  background: red;
+} */
+
+button {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#header .container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 100px;
+}
+
+#header {
+  padding-block: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+.header a {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+.burger-menu {
+  display: none;
+  justify-content: flex-end;
+}
+.burger-menu span {
+  font-size: 28px;
+}
+
+#main {
+  padding-block: 50px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.main-content h1 {
+  font-size: 48px;
+}
+
+.main-content p {
+  width: 500px;
+  font-size: 16px;
+}
+.main-content button {
+  font-size: 16px;
+  background: #ff6464;
+  width: 200px;
+  height: 40px;
+}
